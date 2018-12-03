@@ -1,0 +1,29 @@
+{
+  "name": "FoodBand",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "*",
+    "gulp-css-rebase-urls": "*",
+    "gulp-debug": "^2.1.2",
+    "gulp-linker": "^0.1.7",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-uglify": "*",
+    "html-webpack-plugin": "^3.0.4",
+    "ini": "*",
+    "merge-stream": "*",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "dependencies": {
+    "semantic-ui": "^2.1.6"
+  }
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="yandex-verification" content="14bedc666b445cc6" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Торговый Дом Щебень Карелии">
+    <meta name="author" content="Gromovoy A.A.">
+
+    <title>Продажа щебня</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css" rel="stylesheet">
+    <link href="/bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+    <link href="/bower_components/ngGallery/src/css/screen.css" rel="stylesheet" type="text/css">
+    <link href="/bower_components/ngGallery/src/css/ngGallery.css" rel="stylesheet" type="text/css">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="/css/mystyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-ng-app="appProduction">
+<!-- Intro Header -->
+<div itemscope itemtype="http://schema.org/Organization">
+    <header class="intro">
+        <div id="header" class="intro-body left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="brand-heading">Поставка высококачественного щебня из Карелии и Ленинградской области железнодорожным транспортом</h1>
+                        <a href="/#feedback-anchor" class="btn btn-feedback">Направить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-top" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#header">
+                    <img alt="Щебень Карелии" itemprop="logo" src="/img/logo-scheben.png">Щебень Карелии
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-top">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">О компании</a></li>
+                    <li><a class="active" href="/production">Продукция</a></li>
+                    <li><a href="/news">Новости</a></li>
+                    <!--<li><a href="/contacts">Контакты</a></li>-->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+<div id="production" class="container content-section" data-ng-controller="Photo as photo">
+    <h2>Фотогалерея продукции</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <ng-gallery images="photo.images" thumbs-num="11"></ng-gallery>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <section class="content-section container footer-section">
+        <h3>Торговый Дом "Щебень Карелии"</h3>
+        <div class="row">
+            <div class="col-md-6 company">
+                <h4>Головной офис в Петрозаводске:</h4>
+                <address>
+                    <p>185031 Республика Карелия, г. Петрозаводск, наб. Варкауса, д. 29, корп. 1</p>
+                    <p>Тел.: (8142) 59-40-70</p>
+                    <p>Факс.: (8142) 59-40-71</p>
+                    <p>Email: <a href="mailto:office@nerudtrade.ru">office@nerudtrade.ru</a></p>
+                </address>
+                <div class="red">
+                    <a data-toggle="modal" data-target="#map-ptz-modal">Расположение офиса на карте города</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 company">
+                <h4>Офис в Москве:</h4>
+                <address>
+                    <p>107078, Москва, Басманный переулок, дом 7 офис 19 (метро  Красные ворота, Комсомольская, Бауманская)</p>
+                    <p>Тел.: (499) 763 32 42</p>
+                    <p>Email: <a href="mailto:moscow@pntrans.info">moscow@pntrans.info</a></p>
+                </address>
+                <div class="red">
+                    <a data-toggle="modal" data-target="#map-msk-modal">Расположение офиса на карте города</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container text-center lower">
+        <p>Компания Торговый Дом "Щебень Карелии"&copy; 2016</p>
+    </div>
+</footer>
+
+<!-- Custom Theme JavaScript -->
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/js/angular.min.js" type="text/javascript"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/bower_components/ngGallery/src/js/ngGallery.js"></script>
+<script src="/js/myscript.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter39723415 = new Ya.Metrika({
+                    id:39723415,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/39723415" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /bower_components/*
+Disallow: /node_modules/*
+Disallow: /feedback/*
+Disallow: /develop/*
+
+User-agent: Yandex
+Disallow: /bower_components/*
+Disallow: /node_modules/*
+Disallow: /feedback/*
+Disallow: /develop/*
+
+Sitemap: http://nerudtrade.ru/sitemap.xml
+
+Host: nerudtrade.ru
